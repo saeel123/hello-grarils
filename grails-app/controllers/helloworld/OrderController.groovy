@@ -2,5 +2,7 @@ package helloworld
 
 class OrderController {
 
-    def index = { }
+    static scaffold = true
+
+    //def index = { }
 }
