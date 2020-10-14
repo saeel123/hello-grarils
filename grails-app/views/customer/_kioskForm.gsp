@@ -13,8 +13,8 @@
         </div>
         <div class="col-md-6">
             <g:textField name="phone" class="form-control" placeholder="enter phone" />
-            <input class="btn btn-danger btn-lg " type="button" name="reset" value="Reset"/>
-            <input class="btn btn-success btn-lg " type="button" name="reset" value="Search"/>
+            <g:link action="checkin" class="btn btn-danger btn-lg "> Reset </g:link>
+            <g:submitButton class="btn btn-success btn-lg "  name="search" value="Search"/>
         </div>
     </div>
 </div>
